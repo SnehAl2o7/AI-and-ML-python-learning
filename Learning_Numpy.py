@@ -1,0 +1,60 @@
+# using numpy for array
+
+# Single-dimensional Array
+
+import numpy as np
+contain = [10,20,30]
+n1= np.array(contain)
+print(type(n1))
+print(n1)
+
+# Multi-dimensional Array
+
+holder = [[10,20,30],[1,2,3]]
+n1 = np.array(holder)
+print(type(n1))
+print(n1)
+
+# Different ways of initializing numpy array
+
+# initializing zeros
+n1 = np.zeros((1,2)) # enter the dimensions
+print(n1)
+n1 = np.zeros((5,5))
+print(n1)
+
+# initializing array with same numbers
+n1 = np.full((3,3),1)
+print(n1)
+
+#initializing array in certain range and with a certain difference
+n1 = np.arange(10,20)
+print(n1)
+n1 = np.arange(10,50,5)
+print(n1)
+
+# initializing array with random numbers
+n1 = np.random.randint(1,130,5)
+print(n1)
+
+# getting the shape or dimensions of an array
+n1 = np.array([[1,2,3],[3,4,5]])
+print(n1.shape)
+# also used to reshape and resize the array
+n1.shape = (3,2)
+print(n1)
+
+# using stack for array
+n1 = np.array([1,2,3])
+n2 = np.array([6,5,4])
+
+# using vstack
+print(np.vstack((n2,n1)))
+
+#using hstack
+print(np.hstack((n2,n1)))
+
+#using column stack
+print(np.column_stack((n2,n1)))
+
+
