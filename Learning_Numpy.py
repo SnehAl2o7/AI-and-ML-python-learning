@@ -57,4 +57,18 @@ print(np.hstack((n2,n1)))
 #using column stack
 print(np.column_stack((n2,n1)))
 
+# using special operations
+n1 = np.array([1,2,3])
+n2 = np.array([6,5,4,1])
+# intersection of both array
+print(np.intersect1d(n1,n2))
+
+# find unique value of the first array
+print(np.setdiff1d(n1,n2)) # 2,3
+
+print(np.setdiff1d(n2,n1)) # 4,5,6
+
+# 
+
+
 
