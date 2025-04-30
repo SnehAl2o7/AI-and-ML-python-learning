@@ -3,7 +3,6 @@
 # Single-dimensional Array
 
 import numpy as np
-from pandas.conftest import axis_1
 
 contain = [10,20,30]
 n1= np.array(contain)
@@ -77,7 +76,10 @@ n20 = np.array([89,90])
 print(np.sum([n10,n20]))
 
 # sum along row and column using axis
-print(np.sum([n10,n20]),axis=0))
+print(np.sum([n10, n20], axis=0))
+
+#sum along column using axis
+print(np.sum([n10,n20], axis=1))
 
 
 
