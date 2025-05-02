@@ -81,5 +81,16 @@ print(np.sum([n10, n20], axis=0))
 #sum along column using axis
 print(np.sum([n10,n20], axis=1))
 
+#using basic scalar operation
+n34 = np.array([12,23,34,45])
+n34 = n34 + 1
+print(n34)
+n34 = n34-1
+print(n34)
+n34 = n34 * 2
+print(n34)
+n34 = n34/2
+print(n34)
+
 
 
