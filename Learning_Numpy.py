@@ -92,5 +92,12 @@ print(n34)
 n34 = n34/2
 print(n34)
 
+#Basic Mathematical Functions
+print(np.mean(n34))
+print(np.median(n34))
+print(np.std(n34))
+
+
+
 
 
