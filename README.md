@@ -1,4 +1,4 @@
-<h1 align="center">🤖 AI/ML Python Libraries Playground</h1>
+<h1 align="center">🤖 AI/ML Python Workspace</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Python-yellow.svg" />
